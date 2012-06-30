@@ -21,12 +21,12 @@
 		769192D8159F355600AA4075 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		769192D9159F355600AA4075 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		769192DA159F355600AA4075 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		769192DD159F355600AA4075 /* Menustuck-Info.plist */ = {isa = PBXFileReference; path = "Menustuck-Info.plist"; sourceTree = "<group>"; };
+		769192DD159F355600AA4075 /* Menustuck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Menustuck-Info.plist"; sourceTree = "<group>"; };
 		769192DF159F355600AA4075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		769192E1159F355600AA4075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		769192E3159F355600AA4075 /* Menustuck-Prefix.pch */ = {isa = PBXFileReference; path = "Menustuck-Prefix.pch"; sourceTree = "<group>"; };
+		769192E3159F355600AA4075 /* Menustuck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Menustuck-Prefix.pch"; sourceTree = "<group>"; };
 		769192E5159F355600AA4075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		769192E7159F355600AA4075 /* MSPAAppDelegate.h */ = {isa = PBXFileReference; path = MSPAAppDelegate.h; sourceTree = "<group>"; };
+		769192E7159F355600AA4075 /* MSPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPAAppDelegate.h; sourceTree = "<group>"; };
 		769192E8159F355600AA4075 /* MSPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPAAppDelegate.m; sourceTree = "<group>"; };
 		769192EB159F355700AA4075 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
