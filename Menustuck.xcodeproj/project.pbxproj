@@ -13,6 +13,10 @@
 		769192E6159F355600AA4075 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 769192E4159F355600AA4075 /* Credits.rtf */; };
 		769192E9159F355600AA4075 /* MSPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769192E8159F355600AA4075 /* MSPAAppDelegate.m */; };
 		769192EC159F355700AA4075 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769192EA159F355700AA4075 /* MainMenu.xib */; };
+		7691930C159F51C900AA4075 /* candycorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 76919308159F51C900AA4075 /* candycorn.png */; };
+		7691930D159F51C900AA4075 /* candycorn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76919309159F51C900AA4075 /* candycorn@2x.png */; };
+		7691930E159F51C900AA4075 /* candycornHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7691930A159F51C900AA4075 /* candycornHighlighted.png */; };
+		7691930F159F51C900AA4075 /* candycornHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7691930B159F51C900AA4075 /* candycornHighlighted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		769192E7159F355600AA4075 /* MSPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPAAppDelegate.h; sourceTree = "<group>"; };
 		769192E8159F355600AA4075 /* MSPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPAAppDelegate.m; sourceTree = "<group>"; };
 		769192EB159F355700AA4075 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		76919308159F51C900AA4075 /* candycorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candycorn.png; sourceTree = "<group>"; };
+		76919309159F51C900AA4075 /* candycorn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "candycorn@2x.png"; sourceTree = "<group>"; };
+		7691930A159F51C900AA4075 /* candycornHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candycornHighlighted.png; sourceTree = "<group>"; };
+		7691930B159F51C900AA4075 /* candycornHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "candycornHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				769192E7159F355600AA4075 /* MSPAAppDelegate.h */,
 				769192E8159F355600AA4075 /* MSPAAppDelegate.m */,
 				769192EA159F355700AA4075 /* MainMenu.xib */,
+				76919310159F51DF00AA4075 /* Images */,
 				769192DC159F355600AA4075 /* Supporting Files */,
 			);
 			path = Menustuck;
@@ -100,6 +109,17 @@
 				769192E4159F355600AA4075 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76919310159F51DF00AA4075 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76919308159F51C900AA4075 /* candycorn.png */,
+				76919309159F51C900AA4075 /* candycorn@2x.png */,
+				7691930A159F51C900AA4075 /* candycornHighlighted.png */,
+				7691930B159F51C900AA4075 /* candycornHighlighted@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +177,10 @@
 				769192E0159F355600AA4075 /* InfoPlist.strings in Resources */,
 				769192E6159F355600AA4075 /* Credits.rtf in Resources */,
 				769192EC159F355700AA4075 /* MainMenu.xib in Resources */,
+				7691930C159F51C900AA4075 /* candycorn.png in Resources */,
+				7691930D159F51C900AA4075 /* candycorn@2x.png in Resources */,
+				7691930E159F51C900AA4075 /* candycornHighlighted.png in Resources */,
+				7691930F159F51C900AA4075 /* candycornHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

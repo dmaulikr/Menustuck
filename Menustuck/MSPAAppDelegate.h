@@ -8,8 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface MSPAAppDelegate : NSObject <NSApplicationDelegate>
+@interface MSPAAppDelegate : NSObject <NSApplicationDelegate>{
+	IBOutlet NSMenu *statusMenu;
+	NSStatusItem *statusItem;
+	NSImage *statusImage;
+	NSImage *statusHighlightImage;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)checkForUpdates:(id)sender;
 @end
